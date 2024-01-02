@@ -9,8 +9,9 @@
   justify-content: space-between;
   align-items: center;
   padding:2% 5%;
-  background-color: rgb(0, 0, 0);
+  background-color:rgb(3, 0, 0);
   color: white;
+  border-bottom: 4%;
 }
 .uppercase{
   text-transform: uppercase;
@@ -91,7 +92,7 @@ a{
   padding: 5%;
 }
 .amount{
-  color: rgb(91, 245, 91);
+  color: rgb(10, 104, 10);
 }
 .de{
   color: rgb(46, 46, 221);
@@ -169,18 +170,37 @@ a{
 .j{
   padding: 7%;
 
+}.hef{
+  margin-bottom: 7%;
 }
 .carb{
   text-align: center;
+}.end{
+  margin-top: 3%;
+  border-top: 1px solid #ccc;
+  padding: 2%;
+}.endlin{
+  margin-bottom: 2%;
+  margin-right: 2%;
+}.header-l{
+  visibility: hidden;
+  display: flex;
+  justify-content: space-between;
+}.header-span{
+  padding-right: 9px;
 }
 .footer{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  margin-top: 3%;
   align-items: center;
-  padding: 9%;
-  background-color: #1d0e47;
+}.xxcv{
+
+  padding: 3%;
+  background-color: #1e192c;
   color: white;
+}.flinks2{
+  margin-right: 30%;
 }
 .h2x, .span2x{
   margin-bottom: 2% !important;
@@ -192,6 +212,30 @@ a{
   color: white !important;
   width: 100% !important;
 
+}.fh3{
+  margin-bottom: 1%;
+}
+.fp3{
+  margin-bottom: 3%;
+}.inputxc{
+  width: 100%;
+  background-color: transparent;
+  padding: 3%;
+  color: white;
+  border-radius: 3%;
+}.finp{
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  color: #fff;
+  width: 80%;
+}.finp:focus{
+  outline: none;
+}
+.fbx{
+  padding: 5px;
+  border: none;
+  width: 20%;
 }
 @media(min-width:800px){
   .b-text{
@@ -215,6 +259,10 @@ a{
   padding: 5%;
   border-radius: 3%;
   margin-top: 0;
+  }.footer{
+    justify-content: space-between;
+  }.flinks1, .flinkskk{
+    margin-right: 24%;
   }
   .matters{
     display: flex;
@@ -223,5 +271,14 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }.xxcv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }.header-m{
+    display: none;
+  }.header-l{
+    display: block;
+    justify-content: space-between;
   }
 }
